@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  :root{
+    --azurra:#668cff;
+    --blu:#0039e6;
+    --gs-light:#fff9f9;
+    --gs-mid:#808080;
+    --gs-dark:#a0a0a0;
+    --gs-react:#282c34;
+    --radius:1em;
+  }
+  body {
+    margin: 0;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  }
+  section{
+    margin:2em;
+    padding:2em;
+    width: fit-content;
+    height: 80vh;
+    overflow: hidden;
+    border-radius: var(--radius);
+    text-align: center;
+  }
+  main{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: center;
+    width:100%;
+    margin:0 auto;
+    background: var(--gs-dark);
+  }
+  .textArea{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    background: var(--gs-light);
+  }
+  form{
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+    flex-direction: column;
+   
+  }
+  input{
+    width: 100%;
+   margin-top: 2em;
+  margin-bottom: 2em;
+  border: none;
+  font-size: 18px;
+  }
+  p{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    color: var(--gs-light);
+  }
+textarea{
+  width:100%;
+  border: none;
+  background: var(--gs-light);
+}
+  .inputArea{
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 80vh;
+  }
+  button{
+    padding:6px 12px;
+    width:192px;
+    border: none;
+    border-radius: var(--radius);
+    color:var(--gs-light);
+    background: var(--blu);
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  button:hover{
+    background: var(--azurra);
+
+  }
